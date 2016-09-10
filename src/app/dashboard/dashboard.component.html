@@ -1,0 +1,17 @@
+<article class="template animated slideInRight">
+  <h4>Top Runners</h4>
+  <div>
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--3-col"
+        *ngFor="#runner of runners | async"
+        (click)="gotoDetail(runner)">
+
+        <button class="dashboard-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect
+      mdl-button--accent">
+          {{runner.name}}
+        </button>
+
+      </div>
+    </div>
+  </div>
+</article>

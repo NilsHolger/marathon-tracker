@@ -1,27 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>MarathonTracker1</title>
   <base href="/">
 
-  {{#unless environment.production}}
-  <script src="/ember-cli-live-reload.js" type="text/javascript"></script>
-  {{/unless}}
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="assets/material.min.js"></script>
+  <link rel="stylesheet" href="assets/material.deep_orange-pink.min.css">
+  <link rel="stylesheet" href="assets/sprite-av-white.css">
+  <link rel="stylesheet" href="assets/animate.css">
+  <link rel="stylesheet" href="assets/app.css">
+
+  <!-- IE required polyfills, in this exact order -->
+  <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+  <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+  <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+  <!-- Angular polyfill required everywhere -->
+  <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <script src="node_modules/rxjs/bundles/Rx.js"></script>
+  <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+  <script src="node_modules/angular2/bundles/router.dev.js"></script>
+  <script src="node_modules/angular2/bundles/http.dev.js"></script>
+
+  <script src="node_modules/a2-in-memory-web-api/web-api.js"></script>
+
+  <script>
+    System.config({packages:{
+      api: {format: 'register',defaultExtension: 'js'},
+      app: {format: 'register',defaultExtension: 'js'}
+    }});
+    System.import('app/main')
+          .then(null, console.error.bind(console));
+  </script>
+
 </head>
+
 <body>
-  <app-root>Loading...</app-root>
-  
-    {{#each scripts.polyfills}}
-    <script src="{{.}}"></script>
-    {{/each}}
-    <script>
-      System.import('system-config.js').then(function () {
-        System.import('main');
-      }).catch(console.error.bind(console));
-    </script>
-  
+  <marathon-app>Loading Marathon Tracker ...</marathon-app>
 </body>
+
 </html>

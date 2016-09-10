@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": 11,
+      "name": "Flash",
+      "side": "light"
+    },
+    {
+      "id": 12,
+      "name": "Superman",
+      "side": "light"
+    },
+    {
+      "id": 13,
+      "name": "Batman",
+      "side": "light"
+    },
+    {
+      "id": 14,
+      "name": "Green Arrow",
+      "side": "light"
+    },
+    {
+      "id": 15,
+      "name": "Spiderman",
+      "side": "light"
+    },
+    {
+      "id": 16,
+      "name": "Wolverine",
+      "side": "light"
+    },
+    {
+      "id": 17,
+      "name": "Wonderwoman",
+      "side": "light"
+    },
+    {
+      "id": 18,
+      "name": "Captain America",
+      "side": "light"
+    },
+    {
+      "id": 19,
+      "name": "Hal Jordan",
+      "side": "dark"
+    },
+    {
+      "id": 20,
+      "name": "Wally West",
+      "side": "light"
+    },
+    {
+      "id": 21,
+      "name": "Hulk",
+      "side": "light"
+    },
+    {
+      "id": 22,
+      "name": "Daredevil",
+      "side": "light"
+    },
+    {
+      "id": 23,
+      "name": "Thing",
+      "side": "light"
+    },
+    {
+      "id": 24,
+      "name": "James Gordan",
+      "side": "dark"
+    },
+    {
+      "id": 25,
+      "name": "Catwoman",
+      "side": "dark"
+    },
+    {
+      "id": 26,
+      "name": "The Spirit",
+      "side": "light"
+    }
+  ]
+}

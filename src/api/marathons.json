@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": 30,
+      "name": "Berlin",
+      "type": "space"
+    },
+    {
+      "id": 31,
+      "name": "Karlsruhe",
+      "type": "space"
+    },
+    {
+      "id": 32,
+      "name": "Frankfurt",
+      "type": "space"
+    },
+    {
+      "id": 33,
+      "name": "Hamburg",
+      "type": "space"
+    },
+    {
+      "id": 34,
+      "name": "Munich",
+      "type": "land"
+    },
+    {
+      "id": 35,
+      "name": "Hannover",
+      "type": "space"
+    },
+    {
+      "id": 36,
+      "name": "Paris",
+      "type": "space"
+    },
+    {
+      "id": 37,
+      "name": "New York",
+      "type": "space"
+    },
+    {
+      "id": 38,
+      "name": "Los Angeles",
+      "type": "space"
+    },
+    {
+      "id": 39,
+      "name": "London",
+      "type": "land"
+    },
+    {
+      "id": 40,
+      "name": "Tokio",
+      "type": "land"
+    }
+  ]
+}
